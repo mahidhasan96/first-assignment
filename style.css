@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+.orange-hilight{
+    color: orangered;
+}
+
+.half-widht{
+    width: 41%;
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-widht p{
+     text-align: justify;
+     color:400;
+    
+}
+.half-widht img{
+    width: 100%;
+}
+
+.top-banner{
+ background-image: url("images/top-banner.png");
+ background-repeat: no-repeat;
+
+
+}
+
+section{
+    height: 540px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    background-color: chartreuse;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.dream-area{
+    margin-top: 100px;
+
+}
+
+.last-section{
+    margin-top: 110px;
+    
+
+}
+.same-part{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    margin-top: 0px;
+    width: 38%;
+    background-color: white;
+}
+.last-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#right-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+.half-widht ul li{
+    list-style: none;
+    columns: red;
+    font-weight:bold;
+    color: rgb(202, 168, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 0px;
+    background-color: rebeccapurple;
+    margin: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+}
+.half-widht ul li:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.latter{
+    text-align: left;
+    color: rgb(238, 10, 10);
+}
+
+.edit-img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 7px dotted green;
+}
+.edit-img:hover{
+    border: 7px solid green;
+    background-image: reg ;
+}
+
+#button1{
+    position: absolute;
+    left: 24%;
+}
+
+#button2{
+    position: absolute;
+    left: 74%;
+}
+#button1:hover{
+    color: teal;
+}
+
+
+
+#button2:hover{
+    color: teal;
+}
+
+.visit-section{
+    width: 89%;
+    height: 210px;
+    margin: 60px auto;
+   
+}
+
+
+
+.visit-section1 p:nth-child(2n){
+    color: green;
+    background-color: greenyellow;
+    text-align: center;
+    border-radius: 14px;
+    padding: 4px 0px;
+    text-transform: uppercase;
+}
+
+
+.visit-section1 p:nth-child(2n+1){
+    color: rgb(90, 17, 226);
+    background-color: rgb(197, 67, 6);
+    padding: 4px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+footer{
+    width: 40%;
+    margin: auto;
+}
+
+
+footer p{
+    color: rgb(255, 182, 47);
+    text-align: center;
+}
+
+
